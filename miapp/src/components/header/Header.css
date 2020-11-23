@@ -1,0 +1,25 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(174, 161, 25);
+}
+
+.active {
+    background-color: rgb(174, 71, 25);
+}
+
+.header a,
+.header span {
+    all: unset;
+    color: black;
+    padding: 1em;
+    transition: all 0.5s;
+}
+
+.header a:hover,
+.header span:hover {
+    color: black;
+    cursor: pointer;
+    background-color: rgb(174, 101, 25);
+}
